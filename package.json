@@ -1,0 +1,25 @@
+{
+  "name": "emptyproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./www/js/main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "John McIntosh",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^7.0.12",
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^3.1.6",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "tsify": "^3.0.1",
+    "typescript": "^2.3.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
