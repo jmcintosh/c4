@@ -1,12 +1,17 @@
 export class Disc {
-    private _color: String;
+    private readonly color: string;
+    private readonly playerId: number;
 
-    constructor(color: String) {
-        this._color = color;
+    constructor(color: string, playerId: number) {
+        this.color = color;
+        this.playerId = playerId;
     }
 
     getColor() {
-        return this._color;
+        return this.color;
     }
     
+    getPlayerId() {
+        return this.playerId;
+    }
 }

@@ -26,10 +26,20 @@ import {Disc} from "./disc"
 
 let board = new Board(7,6);
 
-let redDisc1 = new Disc("red")
-let yellowDisc1 = new Disc("yellow");
+let redDisc1 = new Disc("red", 1)
+let yellowDisc1 = new Disc("yellow", 2);
 
 board.placeDisc(redDisc1,0);
 board.placeDisc(yellowDisc1,0);
-
+board.placeDisc(redDisc1,0);
+board.placeDisc(yellowDisc1,0);
+board.placeDisc(redDisc1,0);
+console.log(board.placeDisc(yellowDisc1,0));
+console.log(board.placeDisc(redDisc1,0));
+console.log(board.placeDisc(yellowDisc1,0));
 board.log();
+
+board.placeDisc(redDisc1,1);
+board.log();
+console.log(board.placeDisc(redDisc1,6));
+console.log(board.placeDisc(redDisc1,7));
